@@ -1,5 +1,5 @@
 {% set name = "trame-jupyter-extension" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame_jupyter_extension-{{ version }}.tar.gz
-  sha256: 39feadff9de83a8b254251c18a6c3256de391098516cec69cbbb170014f09a5f
+  sha256: b4d075db4f4c3415b09be041d774604d9be57a882cf19ea12aaec592619bb299
 
 build:
   noarch: python
