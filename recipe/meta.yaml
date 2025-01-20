@@ -22,6 +22,7 @@ requirements:
     - hatch-jupyter-builder >=0.5
     - hatch-nodejs-version >=0.3.2
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - jupyterlab >=4,<5
